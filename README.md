@@ -128,15 +128,25 @@ Key Findings Summary
 #Finding1Revenue grew from $3.26M (2022) to $3.79M (2023) but margin compressed from 17.59% to 16.69% by 20242Electronics leads in sales volume (8,610 units) but Tablet drags its margin to the lowest in the category3Laptop is the highest-margin product at 18.47% — its cost structure should be studied and replicated4Tablet (16.36%) and Printer (16.94%) are the two lowest-margin products and the primary cost intervention points5South region + Electronics + Tablet has the highest absolute cost ($93,097) and the lowest product-level margin (11.33%)6North region + Office is the weakest region-category combination at 14.58% margin7West region is the strongest overall at 18.36% — should be studied as a performance benchmark82024 is the only year with no single recovery month — margin declines from January to December without pause9December 2023 at 20.13% is the highest single-month margin across all 3 years — worth investigating as a best-practice case10The opening margin of each year has declined consistently (18.69% → 18.56% → 17.59%) — a structural, not seasonal, problem
 
 Conclusion & Recommendations
-The core finding of this analysis is that the business has a revenue growth problem masking a profitability problem. Sales figures suggest a healthy, growing business. But margin analysis reveals that cost growth is consistently outpacing revenue growth — and the gap is widening each year.
+1. The core finding of this analysis is that the business has a revenue growth problem masking a profitability problem. Sales figures suggest a healthy, growing business. But margin analysis reveals that cost growth is consistently outpacing revenue growth — and the gap is widening each year.
 This is not a sales problem. It is a cost efficiency problem concentrated in specific products and regions.
 Recommendation 1 — Address Tablet pricing or cost structure in the South region
-The South/Electronics/Tablet combination has the highest cost and lowest margin in the dataset. Either renegotiate supplier costs for Tablets sold in the South, or implement a pricing adjustment of 3–5% to bring the margin in line with the category average.
+
+2. The South/Electronics/Tablet combination has the highest cost and lowest margin in the dataset. Either renegotiate supplier costs for Tablets sold in the South, or implement a pricing adjustment of 3–5% to bring the margin in line with the category average.
 Recommendation 2 — Review Printer cost structure in the Office category
-Printer is the only Office product and consistently sits below the overall average margin. A cost audit of the Printer supply chain or a pricing revision is needed to bring Office margin above 17%.
+
+3. Printer is the only Office product and consistently sits below the overall average margin. A cost audit of the Printer supply chain or a pricing revision is needed to bring Office margin above 17%.
 Recommendation 3 — Study the Laptop cost model and apply learnings
-Laptop at 18.47% is the highest-margin product. Understanding what makes Laptop's cost structure efficient — supplier terms, logistics, pricing strategy — and applying those learnings to Tablet and Smartwatch could recover 1–2% margin across Electronics.
+
+4. Laptop at 18.47% is the highest-margin product. Understanding what makes Laptop's cost structure efficient — supplier terms, logistics, pricing strategy — and applying those learnings to Tablet and Smartwatch could recover 1–2% margin across Electronics.
 Recommendation 4 — Investigate December 2023 as a best-practice case
-The 20.13% margin in December 2023 is the highest single month in 3 years. What changed in that month — product mix, lower promotions, cost reduction? Replicating those conditions could help recover 2024's declining margins.
+
+5. The 20.13% margin in December 2023 is the highest single month in 3 years. What changed in that month — product mix, lower promotions, cost reduction? Replicating those conditions could help recover 2024's declining margins.
 Recommendation 5 — Set a margin floor of 17% as a business KPI
 Any product-region combination falling below 17% should trigger an automatic review. This prevents margin erosion from becoming normalized across the business.
+
+Excel Dashboard -> <img width="1406" height="654" alt="Excel Dashboard" src="https://github.com/user-attachments/assets/82723011-426b-414b-b191-fc0dc81315b0" />
+
+Tableau Dashboard -> <img width="1191" height="795" alt="Tableau Dashboard" src="https://github.com/user-attachments/assets/e91bba0d-958c-40c8-893f-a6ea54997de5" />
+
+Tableau Dashboard Link -> https://public.tableau.com/app/profile/santanu.banerjee/viz/E-CommerceSalesDashboard_17809883086000/SalesDashboard
