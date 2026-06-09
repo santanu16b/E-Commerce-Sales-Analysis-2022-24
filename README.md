@@ -1,9 +1,11 @@
 # E-Commerce-Sales-Analysis-2022-24
 Tools Used: Excel · MySQL · Tableau Dataset: Custom sales dataset — 3,500 rows across 3 categories, 4 regions, 10 products (2022–2024) Dashboard: https://public.tableau.com/app/profile/santanu.banerjee/viz/E-CommerceSalesDashboard_17809883086000/SalesDashboard?showOnboarding=true
-Business Question
 
+Business Question
 Revenue is growing year over year — but is the business actually becoming more profitable?
 Which products, categories, and regions are driving or eroding profit margins?
+
+
 
 
 **Dataset Overview**
@@ -125,7 +127,16 @@ FROM sales_table GROUP BY Category, Product_Name;
 Insight: Laptop is the standout performer across all categories at 18.47% — the highest margin product in the entire dataset. Tablet is the weakest at 16.36% — the lowest across all categories. Accessories is the most consistent category with a tight 17.16%–17.45% range, meaning no single product is significantly dragging it down. Office has no high-margin product to compensate for Printer's weakness — making it structurally vulnerable. Priority intervention: Tablet (Electronics) and Printer (Office).
 
 Key Findings Summary
-#Finding1Revenue grew from $3.26M (2022) to $3.79M (2023) but margin compressed from 17.59% to 16.69% by 20242Electronics leads in sales volume (8,610 units) but Tablet drags its margin to the lowest in the category3Laptop is the highest-margin product at 18.47% — its cost structure should be studied and replicated4Tablet (16.36%) and Printer (16.94%) are the two lowest-margin products and the primary cost intervention points5South region + Electronics + Tablet has the highest absolute cost ($93,097) and the lowest product-level margin (11.33%)6North region + Office is the weakest region-category combination at 14.58% margin7West region is the strongest overall at 18.36% — should be studied as a performance benchmark82024 is the only year with no single recovery month — margin declines from January to December without pause9December 2023 at 20.13% is the highest single-month margin across all 3 years — worth investigating as a best-practice case10The opening margin of each year has declined consistently (18.69% → 18.56% → 17.59%) — a structural, not seasonal, problem
+1. Revenue grew from $3.26M (2022) to $3.79M (2023) but margin compressed from 17.59% to 16.69% by 2024
+2. Electronics leads in sales volume (8,610 units) but Tablet drags its margin to the lowest in the category
+3. Laptop is the highest-margin product at 18.47% — its cost structure should be studied and replicated
+4. Tablet (16.36%) and Printer (16.94%) are the two lowest-margin products and the primary cost intervention points
+5. South region + Electronics + Tablet has the highest absolute cost ($93,097) and the lowest product-level margin (11.33%)
+6. North region + Office is the weakest region-category combination at 14.58% margin
+7. West region is the strongest overall at 18.36% — should be studied as a performance benchmark
+8. 2024 is the only year with no single recovery month — margin declines from January to December without pause
+9. December 2023 at 20.13% is the highest single-month margin across all 3 years — worth investigating as a best-practice case
+10. The opening margin of each year has declined consistently (18.69% → 18.56% → 17.59%) — a structural, not seasonal, problem
 
 Conclusion & Recommendations
 1. The core finding of this analysis is that the business has a revenue growth problem masking a profitability problem. Sales figures suggest a healthy, growing business. But margin analysis reveals that cost growth is consistently outpacing revenue growth — and the gap is widening each year.
